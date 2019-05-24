@@ -17,14 +17,14 @@ The automated steps of the text extraction process are the following (in order)
 2.5. Augment the probabilities of the characters in the lines using the n-grams and descriptive statistics. Script [augment_prob_ngrams.py](src/augment_prob_ngrams.py).<br/>
 2.6. Accept the lines with all their characters with probability 1.0. Script [accept_from_ngrams.py](src/accept_from_ngrams.py)<br/>
 
-3. Compose the Full Transcription Text of the Images
-3.1. Construction of the full text transcriptions from the lines. Script [build_labels.py](src/build_labels.py)
-3.2. Computation of the Damerau-Levenshtein similarity to the ground truth data. Script [fulltext_similarity_DL_dir.py](src/fulltext_similarity_DL_dir.py)
+3. Compose the Full Transcription Text of the Images.<br/>
+3.1. Construction of the full text transcriptions from the lines. Script [build_labels.py](src/build_labels.py).<br/>
+3.2. Computation of the Damerau-Levenshtein similarity to the ground truth data. Script [fulltext_similarity_DL_dir.py](src/fulltext_similarity_DL_dir.py).<br/>
 <br/>
 <br/>
 For a more detailed description of the text extraction process, review the following Jupyter Notebooks:<br/>
-1. Lines' Extraction: [L_aocr_entomology.ipynb](src/L_aocr_entomology.ipynb).<br/>
-2. Ensemble of OCRs: [E_aocr_entomology.ipynb](src/E_aocr_entomology.ipynb).<br/>
+1. Lines' Extraction: [L_aocr_entomology.ipynb](L_aocr_entomology.ipynb).<br/>
+2. Ensemble of OCRs: [E_aocr_entomology.ipynb](E_aocr_entomology.ipynb).<br/>
 <br/><br/><br/>
 
 Copyright 2019 Advanced Computing and Information Systems (ACIS) Lab - UF (https://www.acis.ufl.edu)

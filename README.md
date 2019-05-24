@@ -23,8 +23,8 @@ The automated steps of the text extraction process are the following (in order)
 <br/>
 <br/>
 For a more detailed description of the text extraction process, review the following Jupyter Notebooks:<br/>
-1. Lines' Extraction: [L_aocr_entomology.ipynb](notebooks/L_aocr_entomology.ipynb).<br/>
-2. Ensemble of OCRs: [E_aocr_entomology.ipynb](notebooks/E_aocr_entomology.ipynb).<br/>
+1. Lines' Extraction: [L_aocr_entomology.ipynb](https://github.com/acislab/HuMaIN_Text_Extraction/blob/master/notebooks/L_aocr_entomology.ipynb).<br/>
+2. Ensemble of OCRs: [E_aocr_entomology.ipynb](https://github.com/acislab/HuMaIN_Text_Extraction/blob/master/notebooks/E_aocr_entomology.ipynb).<br/>
 <br/><br/><br/>
 
 Copyright 2019 Advanced Computing and Information Systems (ACIS) Lab - UF (https://www.acis.ufl.edu)

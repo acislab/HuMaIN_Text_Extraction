@@ -1,6 +1,11 @@
 # Human-Machine Text Extraction for Biocollections
 This repository provides access to the scripts utilized during the research titled "Quality-aware Human-Machine Text Extraction for Biocollections using Ensembles of OCRs".
 
+## Acknowledgement
+HuMaIN is funded by a grant from the National Science Foundation's ACI Division of Advanced Cyberinfrastructure (Award Number: 1535086).
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and
+do not necessarily reflect the views of the National Science Foundation.
+
 The automated steps of the text extraction process are the following (in order)
 1. Lines' Extraction<br/>
 1.1. Resize the images that are bigger than 10MB (Google Cloud limitations). Manually use script [resizeDir_mt.py](src/resizeDir_mt.py).<br/>
